@@ -1,0 +1,231 @@
+body{
+  margin:0;
+  font-family: 'roboto';
+  
+}
+
+p,h1,h2,h3,h4,h5,h6{
+  margin:0;
+}
+
+.section-p{
+  padding: 0 20px;
+}
+/* sign up page */
+
+.container{
+  display:flex; 
+  align-items: center;  
+  justify-content: center; 
+  text-align: center; 
+  margin-top: 10%;
+  /* background-color: azure; */
+  
+}
+
+.sub-ctn-1{
+  margin-right: 10px;
+}
+
+.sub-ctn-1 img{
+  height:450px;
+  width:100%
+  
+}
+
+.user-info-ctn{
+  position: relative;
+}
+
+.user-info-ctn div{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  text-align: start; 
+}
+
+.welcome-text{
+  font-size: 26px; 
+  margin-bottom: 20px;
+  color:rgb(73, 147, 121);
+  font-family: "Dancing Script", cursive;
+}
+
+.sign-up-text{
+  font-size: 30px;
+  margin-bottom: 22px;
+  color: rgb(36, 34, 34);
+}
+
+.user-info-ctn p{
+  font-size: 15px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.user-info-ctn input{
+  padding:8px;
+  width:250px;
+  border-radius: 20px;
+   border: 1px solid rgb(199, 199, 199);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.15);
+}
+
+.sign-up-button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  width:100px;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* main page */
+.header{
+  height: 75px;
+  background-color: rgb(255, 255, 255); 
+  display: flex;
+  align-items: center;
+}
+
+.user-profile img{
+  width:40px;
+  height:40px;
+}
+
+.logo{
+  width:120px;
+  height:120px;
+  margin-right: auto;
+}
+.search-input{
+  border: 1px solid grey;
+  padding: 11px 8px 11px 8px;
+  width:350px;
+  border-radius: 25px;
+  flex-shrink: 1;
+  margin-right: auto;
+}
+
+.contact-us{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.container-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.container-1 img{
+  width:90px;
+  height:90px;
+  object-fit: cover;
+  
+  border-radius: 50px;
+}
+
+.container-1 div{
+  text-align: center;
+
+}
+
+.container-1 div p{
+  font-size: 18px;
+}
+
+.profile-text{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.container-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.container-2 img{
+  width:100%;
+  height:850px;
+  /* height: 650px; */
+  object-fit:fill;
+  
+}
+
+
+.container-3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  column-gap: 10px;
+}
+
+@media (max-width:1000px){
+  .container-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+  }
+    .container-2{
+      display: grid;
+      grid-template-columns: 1fr ;
+    }
+  
+}
+
+.container-3 img{
+  height:400px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.text-ctn-1,.text-ctn-2, .text-ctn-3{
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.text-ctn-1 h1,.text-ctn-2 h1,.text-ctn-3 h1{
+  font-size: 34px;
+  margin-bottom: 5px;
+}
+
+.text-ctn-1 p, .text-ctn-2 p{
+  font-size: 18px;
+  color: rgb(72, 68, 68);
+}
+
+.container-4{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  padding-top: 1%;
+  padding-bottom: 5%;
+}
+
+.container-4 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 6px ;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1%;
+  font-size: 15px;
+}

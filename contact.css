@@ -1,0 +1,37 @@
+body{
+    background-image: url(images/conback.jpg);
+    background-size: cover;
+}
+.main{
+    background-color:white;
+    padding:60px;
+    margin:100px;
+    margin-left:500px;
+   width:400px;
+   border-radius:20px;
+   height:400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.inp{
+    border: none;
+    margin-bottom:20px;
+    background-color: rgb(227, 225, 238);
+    padding:10px;
+    width: 350px;
+    border-radius: 20px;
+}
+.heading{
+    margin-left: 100px;
+}
+.text{
+   height: 70px;
+}
+.but{
+    margin-left:50px;
+    width:250px;
+    padding: 8px;
+    background-color:rgb(84, 172, 204);
+    border:none;
+    border-radius:20px ;
+    
+}
